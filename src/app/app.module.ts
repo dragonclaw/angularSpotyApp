@@ -9,6 +9,9 @@ import { ArtistComponent } from './components/artist/artist.component';
 import { NavbarComponent } from './components/shared/navbar/navbar.component';
 
 import { HttpClientModule } from '@angular/common/http';
+import { NoImagePipe } from './pipes/no-image.pipe';
+import { CardsComponent } from './components/shared/cards/cards.component';
+import { LoadingComponent } from './components/shared/loading/loading.component';
 
 
 @NgModule({
@@ -17,7 +20,10 @@ import { HttpClientModule } from '@angular/common/http';
     HomeComponent,
     SearchComponent,
     ArtistComponent,
-    NavbarComponent
+    NavbarComponent,
+    NoImagePipe,
+    CardsComponent,
+    LoadingComponent
   ],
   imports: [
     BrowserModule,
